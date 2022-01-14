@@ -1,0 +1,15 @@
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  
+  .pagination li.active{
+      background-color: #536dfe;
+      color: #fff;
+      width: 10px;
+  }
